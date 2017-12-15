@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "enter the number"
-read num
+num=$1
 t=2
 while [ $t -lt $num ]
 do
